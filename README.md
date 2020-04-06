@@ -162,5 +162,6 @@ switch (num){
     break;
   default:
     console.log('Нет значения');
+    }
 ```
 
