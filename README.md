@@ -62,10 +62,10 @@ var number = 0;
 var clother = {};
 ```
 ## Не использовать new Object() ##
-{}} вместо new Object()
-"" вместо new String()
-0 вместо new Number()
-false вместо new Boolean()
+{} вместо new Object(), 
+"" вместо new String(),
+0 вместо new Number(),
+false вместо new Boolean(),
 [] вместо new Array()
 Это значительно сокращает код. Первый является литералом объекта, второй - конструктором, это разные способы создания объекта.
 
